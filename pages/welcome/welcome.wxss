@@ -14,21 +14,23 @@ page {
   margin-top: 160rpx;
 }
 .user_name {
-  font-size: 32rpx;
+  font-size: 42rpx;
   font-weight: bold;
   margin-top: 100rpx;
+  color: #fff;
 }
 .moto-container {
   border: 1px solid #405f80;
-  width: 200rpx;
+  width: 500rpx;
   height: 80rpx;
   border-radius: 5px;
   text-align: center;
   margin-top: 200rpx;
 }
 .moto {
-  font-size: 22rpx;
+  font-size: 25rpx;
   font-weight: bold;
   line-height: 80rpx;
   color: #405f80;
+  letter-spacing: 5rpx;
 }

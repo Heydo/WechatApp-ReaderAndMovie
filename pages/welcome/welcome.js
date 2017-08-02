@@ -68,6 +68,7 @@ Page({
    * 用户点击按钮触发到下一个页面
    */
   onTap: function (event) {
+    
     // wx.navigateTo({
     //   url:'../posts/post'
     // });
