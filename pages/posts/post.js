@@ -1,6 +1,6 @@
 // post.js
 
-// 必须相对路径
+//引入数据， 必须相对路径
 var postsData = require('../../data/posts-data.js');
 
 Page({
