@@ -14,6 +14,9 @@
   </swiper>
 
   <block wx:for="{{posts_key}}" wx:for-item="item">
-    <template is="postItem" data="{{item}}"></template>
+    <view catchtap="onPostTap" data-postid="{{item.postId}}">
+      <template is="postItem" data="{{...item}}"></template>
+      <!--加3个小点相当于把localDatabase里的对象展开，这样就不需要在模板里用"item."方法了  -->
+    </view>
   </block>
 </view>
